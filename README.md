@@ -6,7 +6,7 @@
 
     make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="staging"
     make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="dev"
-    make docker-all VERSION="**prod_v0**.0.1" ENV_SERVER_MODE="prod"
+    make docker-all VERSION="prod_v0.0.1" ENV_SERVER_MODE="prod"
 
 关于SpringBoot 如何整合使用 Netty ,我将分为以下几步进行分析与讨论：
 - 构建Netty 服务端
