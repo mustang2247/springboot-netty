@@ -1,7 +1,12 @@
 ## 前言
 这一篇文章主要介绍如何用Springboot 整合 Netty,由于本人尚处于学习Netty的过程中，并没有将Netty 运用到实际生产项目的经验，这里也是在网上搜寻了一些Netty例子学习后总结来的，借鉴了他人的写法和经验。如有重复部分，还请见谅。
 
+## make 打包
+    注意：Makefile 文件里 main.go 的路径
 
+    make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="staging"
+    make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="dev"
+    make docker-all VERSION="**prod_v0**.0.1" ENV_SERVER_MODE="prod"
 
 关于SpringBoot 如何整合使用 Netty ,我将分为以下几步进行分析与讨论：
 - 构建Netty 服务端
