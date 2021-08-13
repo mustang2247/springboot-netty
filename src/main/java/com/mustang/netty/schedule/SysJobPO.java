@@ -1,4 +1,4 @@
-package com.mustang.netty.schedul;
+package com.mustang.netty.schedule;
 
 import java.util.Date;
 
