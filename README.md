@@ -4,6 +4,8 @@
 ## make 打包
     注意：Makefile 文件里 main.go 的路径
 
+    make docker-build VERSION="staging_v0.0.1" ENV_SERVER_MODE="staging"
+
     make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="staging"
     make docker-all VERSION="staging_v0.0.1" ENV_SERVER_MODE="dev"
     make docker-all VERSION="prod_v0.0.1" ENV_SERVER_MODE="prod"
